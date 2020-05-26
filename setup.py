@@ -7,7 +7,7 @@ setup(
     url='git@gitlab.com/saagie-group/service/internal/api-saagie.git',
     author='Service team',
     license='GLWTPL',
-    scripts=['querySaagieApi', 'querySaagieApiProject'],
+    scripts=['querySaagieApi.py', 'querySaagieApiProject.py'],
     packages=['querySaagieApi'],
     install_requires=[
           'requests', 'gql'
